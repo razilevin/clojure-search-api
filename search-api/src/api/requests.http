@@ -1,0 +1,14 @@
+GET http://localhost:8000/api/index/kibana_sample_data_ecommerce
+Accept: application/json
+
+{
+}
+
+GET http://localhost:8000/api/query/kibana_sample_data_ecommerce
+?page=2
+&items-page=50
+
+Accept: application/json
+
+{
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Clojure",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "clojure",
+	"extensions": [
+		"betterthantomorrow.calva"
+	],
+	"workspaceFolder": "/workspace/"
+}
